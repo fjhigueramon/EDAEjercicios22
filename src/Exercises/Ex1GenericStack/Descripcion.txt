@@ -1,0 +1,10 @@
+En esta carpeta se proporcionan 3 clases:
+    - IntegerStackInterface: una interfaz de una pila que trabaja con enteros
+    - ArrayIntegerStack: una implementación de la interfaz IntegerStackInterface utilizando un Array
+    - Main: proporciona un método Main en el que se prueban diferentes operaciones de la clase ArrayIntegerStack
+
+Se pide construir las 2 clases siguientes:
+    - GenericStackInterface: una interfaz de una pila que utiliza genéricos para trabajar con cualquier tipo de objetos
+    - ArrayGenericStack: una implementación de la interfaz GenericStackInterface utilizando un Array
+
+Al finalizar la implementación, es necesario que el código comentado en la clase Main funcione sin problemas.
