@@ -1,0 +1,21 @@
+En esta carpeta se proporcionan 4 clases:
+    - StackInterface: una interfaz de una pila
+    - ArrayStack: una implementación de la interfaz StackInterface utilizando un Array
+    - LinkedStack: una implementación de la interfaz StackInterface utilizando una lista enlazada
+    - StacksExample: proporciona un método Main en el que se prueban diferentes operaciones con las implementaciones ArrayStack y LinkedStack
+
+Se pide realizar las 4 clases siguientes tomando como modelo las proporcionadas anteriormente:
+    - QueueInterface: una interfaz de una cola
+    - ArrayQueue: una implementación de la interfaz QueueInterface utilizando un Array
+    - LinkedQueue: una implementación de la interfaz QueueInterface utilizando una lista enlazada
+    - QueuesExample: proporciona un método Main en el que se prueban diferentes operaciones con las implementaciones ArrayQueue y LinkedQueue,
+            de manera similar a como se muestra en StacksExample
+
+Obviamente, los métodos de una cola no son los mismos que los de una pila.
+En el caso de la cola, queremos que se implementen las siguientes funciones:
+    - int size();
+    - boolean isEmpty();
+    - E first();
+    - void enqueue(E e);
+    - E dequeue();
+    - String toString();
