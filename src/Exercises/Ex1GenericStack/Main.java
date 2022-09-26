@@ -19,19 +19,19 @@ public class Main {
         System.out.println("------------------\n");
 
         // Código que debería funcionar
-//        GenericStackInterface<Integer> myGenericStack = new ArrayGenericStack<Integer>();
-//        myGenericStack.push(1);
-//        myGenericStack.push(2);
-//        myGenericStack.push(3);
-//        System.out.println("--- IntegerArrayStack ---");
-//        System.out.println("Stack: " + myGenericStack.toString());
-//        System.out.println("Initial size: " + myGenericStack.size());
-//        System.out.println("First pop: " + myGenericStack.pop());
-//        System.out.println("Second pop: " + myGenericStack.pop());
-//        System.out.println("Third pop: " + myGenericStack.pop());
-//        System.out.println("Stack: " + myGenericStack.toString());
-//        System.out.println("Is it empty? " + myGenericStack.isEmpty());
-//        System.out.println("------------------\n");
+        GenericStackInterface<Integer> myGenericStack = new ArrayGenericStack<Integer>();
+        
+        myGenericStack.push(1);
+        myGenericStack.push(2);
+        myGenericStack.push(3);
+        System.out.println("--- IntegerArrayStack ---");
+        System.out.println("Stack: " + myGenericStack.toString());
+        System.out.println("First pop: " + myGenericStack.pop());
+        System.out.println("Second pop: " + myGenericStack.pop());
+        System.out.println("Third pop: " + myGenericStack.pop());
+        System.out.println("Stack: " + myGenericStack.toString());
+        System.out.println("Is it empty? " + myGenericStack.isEmpty());
+        System.out.println("------------------\n");
 
     }
 
