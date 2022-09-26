@@ -32,8 +32,6 @@ public class StacksExample {
         System.out.println("Is it empty? " + myLinkedStack.isEmpty());
         System.out.println("------------------\n");
 
-
-
     }
 
 }

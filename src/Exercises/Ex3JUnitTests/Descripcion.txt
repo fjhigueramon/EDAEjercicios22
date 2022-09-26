@@ -1,0 +1,6 @@
+En la clase TestCaseGenericStack se proporciona un conjunto de pruebas unitarias para una pila.
+Se pide hacer una clase TestGenericQueue que proporcione un conjunto de pruebas unitarias para la implementación ArrayQueue realizada en el ejercicion anterior (ejercicio 2).
+Estas pruebas serán similares a las proporcionadas en la clase TestCaseGenericStack.
+
+Después, deberá hacerse un método en la clase de pruebas TestGenericQueue que verifique que la cola lanza una excepción IllegalStateException cuando se intenta meter un elemento estando la cola llena.
+Si el método queue() no lanza dicha excepción, deberá modificarse para que sea así.
