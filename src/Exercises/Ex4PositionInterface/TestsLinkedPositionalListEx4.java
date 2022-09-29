@@ -10,13 +10,15 @@ public class TestsLinkedPositionalListEx4 {
 
     LinkedPositionalList<Integer> positionalList;
 
+    /*
     void setUpRandom() {
         Random random = new Random();
         positionalList = new LinkedPositionalList<>();
         for (int i = 0; i < 15; i++) {
-            positionalList.addFirst(random.nextInt(0, 50));
+            positionalList.addFirst(random.nextInt(0, 14));
         }
     }
+
 
     @Test
     @DisplayName("Sort a LinkedPositionalList")
@@ -43,4 +45,6 @@ public class TestsLinkedPositionalListEx4 {
         return true;
     }
 
+
+     */
 }

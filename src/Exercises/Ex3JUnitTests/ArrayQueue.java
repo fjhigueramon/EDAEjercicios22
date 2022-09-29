@@ -2,7 +2,7 @@ package Exercises.Ex3JUnitTests;
 
 public class ArrayQueue<E> implements QueueInterface<E> {
 
-    public static final int CAPACITY=1000;
+    public static final int CAPACITY=3;
     E[] queue;
     int firstElement=0;
     int lastElement=0;
